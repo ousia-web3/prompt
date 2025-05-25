@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; // Corrected import statement
+import React, { useState } from 'react';
 
 // Custom Button component using Tailwind CSS
 const Button = ({ children, onClick }) => (
@@ -377,7 +377,7 @@ export default function App() {
               type="number"
               label="스타일 강도 / Stylize Weight"
               value={form.stylizeWeight}
-              onChange={e => handleChange('stylizeWeight', Number(e.target.value))} // Corrected: Added closing parenthesis
+              onChange={e => handleChange('stylizeWeight', Number(e.target.value))}
               min={0}
               max={1000}
             />
